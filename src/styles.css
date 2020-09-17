@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.clock {
+  background-color: #47694a;
+  font-family: sans-serif;
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+h1 {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  padding-bottom: 15px;
+}
+.clock-display {
+  display: inline-block;
+  text-align: center;
+  padding: 15px 30px;
+  border: solid 5px #ffffff;
+  border-radius: 10px;
+  margin: 60px auto 0 auto;
+  background-color: #000000;
+  color: #ffffff;
+  box-shadow: 4px 4px 7px 4px rgba(0, 0, 0, 0.3);
+}
+/* CLOCK */
+.clock-field {
+  margin: 15px 0;
+  display: flex;
+  justify-content: center;
+}
+.clock-field div {
+  display: inline-block;
+  position: relative;
+  width: 50px;
+}
+.clock-field div p {
+  font-size: 50px;
+  position: relative;
+  z-index: 100;
+}
+.clock-field .numbers .placeholder {
+  color: #2b2828;
+  position: absolute;
+  top: 0;
+  z-index: 50;
+}
+.clock-field .numbers .type {
+  font-size: 10px;
+  font-weight: bold;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  margin-top: -10px;
+}
+.clock-field .am-pm {
+  font-family: sans-serif;
+  text-transform: uppercase;
+  width: 20px;
+}
+.clock-field .am-pm div p {
+  font-size: 12px;
+  font-weight: bold;
+  width: 100%;
+}
+.clock-field .am {
+  color: #ffffff;
+}
